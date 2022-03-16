@@ -1,0 +1,81 @@
+<!DOCTYPE html> 
+<html lang="ja"> 
+<head> 
+        <meta charset="UTF-8"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Sample</title> 
+        <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script> 
+</head> 
+<body> 
+    <div id="wrapper" style="width: 600px; margin: 0 auto;">
+        <div v-if="isIf==1">
+            <h4>プログラミング技術書</h4>
+            <ul id="list">
+                <li v-for="item in items" :key="item.message">
+                    {{item.message}}
+                </li>
+            </ul>
+        </div>
+        <div v-else-if="isIf==2">
+            <h4>漫画本</h4>
+            <ol id="list2">
+                <li v-for="item2 in items" :key="item2.message">
+                    {{item2.message}}
+                </li>
+            </ol>
+        </div>
+        <div v-else>
+            <h4>漫画本</h4>
+            <ol id="list3">
+                <li v-for="item3 in items" :key="item3.message">
+                    {{item3.message}}
+                </li>
+            </ol>
+        </div>
+    </div>
+<script> 
+    const vm = new Vue({
+        el: '#list',
+        data:{
+            items:[
+                { message:'Webを支える技術' },
+                { message:'Javaを学ぶ'},
+                { message:'C#基礎'},
+                { message:'オブジェクト指向'}
+            ]
+        }
+    })
+
+    const vm2 = new Vue({
+        el:'#list2',
+        data:{
+            items:[
+                { message:'ワンピース' },
+                { message:'ドラゴンボール' },
+                { message:'ハンターハンター'},
+                { message:'ハリーポッター'}
+            ]
+        }
+    })
+
+    const vm3 = new Vue({
+        el:'#list3',
+        data:{
+            items:[
+                { message:'論語と算盤' },
+                { message:'7つの習慣' },
+                { message:'嫌われる勇気'},
+                { message:'孫子の兵法'}
+            ]
+        }
+    })
+
+    const showText = new Vue({
+        el: '#wrapper',
+        data:{
+            isIf: 2
+        }
+    })
+</script> 
+</body> 
+</html>
