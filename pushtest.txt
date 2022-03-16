@@ -1,0 +1,134 @@
+Last login: Sun Dec  5 15:16:56 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) inamotoerunoAir:~ inamotokouki$ cd desktop
+(base) inamotoerunoAir:desktop inamotokouki$ zip 休暇申請書.zip -e -r 休暇申請書/ -x "*.DS_Store"
+Enter password: 
+Verify password: 
+  adding: 休暇申請書/ (stored 0%)
+  adding: 休暇申請書/休暇申請書_20190820(稲本光輝).xlsx (deflated 6%)
+(base) inamotoerunoAir:desktop inamotokouki$ 
+  [復元日時2022/01/24 21:08:59]
+Last login: Sun Jan 23 11:44:05 on console
+Restored session: 2022年 1月23日 日曜日 01時56分10秒 JST
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) inamotoerunoAir:desktop inamotokouki$ cd desktop
+-bash: cd: desktop: No such file or directory
+(base) inamotoerunoAir:desktop inamotokouki$ cd desktop
+-bash: cd: desktop: No such file or directory
+(base) inamotoerunoAir:desktop inamotokouki$ zip テスト.zip -e -r テスト/ -x "*.DS_Store"
+Enter password: 
+Verify password: 
+  adding: テスト/ (stored 0%)
+  adding: テスト/テスト用紙.rtf (deflated 36%)
+(base) inamotoerunoAir:desktop inamotokouki$ 
+  [復元日時2022/02/12 20:13:11]
+Last login: Fri Feb 11 22:04:47 on console
+Restored session: 2022年 2月11日 金曜日 22時03分44秒 JST
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) inamotoerunoAir:desktop inamotokouki$ $ dotnet --version
+-bash: $: command not found
+(base) inamotoerunoAir:desktop inamotokouki$ man
+What manual page do you want?
+(base) inamotoerunoAir:desktop inamotokouki$ ipConfig
+usage: ipConfig <command> <args>
+where <command> is one of waitall, getifaddr, ifcount, getoption, getpacket, getv6packet, getra, set, setverbose
+(base) inamotoerunoAir:desktop inamotokouki$ 
+  [復元日時2022/02/27 9:44:51]
+Last login: Sun Feb 27 09:44:36 on console
+Restored session: 2022年 2月27日 日曜日 01時33分00秒 JST
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) inamotomitsuterunoMacBook-Air:desktop inamotokouki$ 
+  [復元日時2022/03/15 21:11:29]
+Last login: Sun Feb 27 10:06:03 on console
+Restored session: 2022年 2月27日 日曜日 10時00分52秒 JST
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) inamotoerunoAir:desktop inamotokouki$ 
+  [復元日時2022/03/16 7:59:29]
+Last login: Wed Mar 16 07:59:20 on console
+
+The default interactive shell is now zsh.
+To update your account to use zsh, please run `chsh -s /bin/zsh`.
+For more details, please visit https://support.apple.com/kb/HT208050.
+(base) inamotoerunoAir:desktop inamotokouki$ brew info git
+git: stable 2.35.1 (bottled), HEAD
+Distributed revision control system
+https://git-scm.com
+/usr/local/Cellar/git/2.35.1 (1,523 files, 43MB)
+  Poured from bottle on 2022-03-15 at 22:58:55
+From: https://github.com/Homebrew/homebrew-core/blob/HEAD/Formula/git.rb
+License: GPL-2.0-only
+==> Dependencies
+Required: gettext ✔, pcre2 ✔
+==> Options
+--HEAD
+	Install HEAD version
+==> Caveats
+The Tcl/Tk GUIs (e.g. gitk, git-gui) are now in the `git-gui` formula.
+Subversion interoperability (git-svn) is now in the `git-svn` formula.
+
+Bash completion has been installed to:
+  /usr/local/etc/bash_completion.d
+
+Emacs Lisp files have been installed to:
+  /usr/local/share/emacs/site-lisp/git
+==> Analytics
+install: 185,385 (30 days), 645,748 (90 days), 2,841,442 (365 days)
+install-on-request: 181,457 (30 days), 632,394 (90 days), 2,788,664 (365 days)
+build-error: 49 (30 days)
+(base) inamotoerunoAir:desktop inamotokouki$ mkdir github
+(base) inamotoerunoAir:desktop inamotokouki$ cd github
+(base) inamotoerunoAir:github inamotokouki$ mkdir pushtest
+(base) inamotoerunoAir:github inamotokouki$ cd pushtest
+(base) inamotoerunoAir:pushtest inamotokouki$ ls
+(base) inamotoerunoAir:pushtest inamotokouki$ cd pushtest
+-bash: cd: pushtest: No such file or directory
+(base) inamotoerunoAir:pushtest inamotokouki$ cd ../../../
+(base) inamotoerunoAir:Users inamotokouki$ cd k a
+-bash: cd: k: No such file or directory
+(base) inamotoerunoAir:Users inamotokouki$ 
+(base) inamotoerunoAir:Users inamotokouki$ cd inamotokouki
+(base) inamotoerunoAir:~ inamotokouki$ cd github
+(base) inamotoerunoAir:github inamotokouki$ cd pushtest
+(base) inamotoerunoAir:pushtest inamotokouki$ git init
+Initialized empty Git repository in /Users/inamotokouki/github/pushtest/.git/
+(base) inamotoerunoAir:pushtest inamotokouki$ vi pushtest.txt
+
+push test!
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+~                                                                               
+-- INSERT --
